@@ -199,7 +199,7 @@ Following is a description of the JSON Schema:
       "type": "string",
       "description": "Optional. A URI pointing to a resource with mime type image/* representing the asset to which this NFT represents. Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive."
     },
-    "tokenURI": {
+    "external_url": {
       "type": "string",
       "description": "Optional. A distinct URI for a given asset that adheres to RFC 3986"
     }
@@ -221,7 +221,7 @@ And if all the properties are included:
    "name": "Slime 2",
    "description": "A slime",
    "image": "{some image URI}",
-   "tokenURI": "{some URI}"
+   "external_url": "{some URI}"
 }
 </pre>
 
